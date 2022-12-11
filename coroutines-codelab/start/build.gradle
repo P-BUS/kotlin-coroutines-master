@@ -59,3 +59,11 @@ dependencies {
     testImplementation testLibraries
     androidTestImplementation androidTestLibraries
 }
+
+task wrapper(type: Wrapper){
+    gradleVersion = '7.2'
+}
+
+task prepareKotlinBuildScriptModel {
+
+}
